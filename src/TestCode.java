@@ -1,15 +1,11 @@
 
 public class TestCode {
-	private int counter;
-	public static void main(String[] args) {
 	
-
+	public static void main(String[] args) {
+		CounterVO obj=new CounterVO();
+		obj.increementCouter(5);
+    System.out.println("The counter is "+obj.getCounter());
 	}
-	public int getCounter() {
-		return counter;
-	}
-	public void setCounter(int counter) {
-		this.counter = counter;
-	}
+	
 
 }
