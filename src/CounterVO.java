@@ -3,6 +3,10 @@ public class CounterVO {
 
 	private int counter;
 	
+	
+public CounterVO() {
+		super();
+	}
 void increementCouter(int i){
   setCounter(i+=counter);		
 	}
